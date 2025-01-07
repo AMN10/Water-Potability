@@ -23,17 +23,22 @@ The turbidity of water depends on the quantity of solid matter present in the su
 Indicates if water is safe for human consumption where 1 means Potable and 0 means Not potable
 
 #Table of Contents:
+
 Step 1 | Python Libraries
 1.1 | Import Libraries
 1.2 | Library configurations
+
 Step 2 | Data
 2.1 | Importing Data
 2.2 | Data Informations
 2.3 | Columns Explanation
+
 Step 3 | visualizations
 3.1 | Plots
 3.2 | Coorelations
+
 Step 4 | Preprocessing
 4.1 | Missing Values Handling
 4.2 | Normalization
+
 Step 5 | Modeling
