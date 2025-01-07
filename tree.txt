@@ -1,0 +1,11 @@
+X = df.drop('Potability', axis=1)
+Y = df['Potability']
+
+x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+ d_tree = DecisionTreeClassifier()
+d_tree.fit(x_train , y_train)
+d_tree_pred = d_tree.predict(x_test)
+
+plt.figure(figsize = (7,9),dpi = 100)
+plot_tree(d_tree,feature_names=X.columns,filled=True)
+plt.show()
